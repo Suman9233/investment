@@ -1,0 +1,46 @@
+.item {
+  display: flex;
+  text-align: left;
+  margin-right: 1rem;
+}
+.item i {
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+.items {
+  display: block;
+  padding: 1rem;
+}
+@media (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  #navbar .logo {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  #navbar ul {
+    padding: 0.5rem;
+  }
+  #who {
+    display: block;
+  }
+  #who img {
+    display: none;
+  }
+  .items-photo img {
+    width: 80%;
+  }
+  #contact {
+    flex-direction: column;
+  }
+  #contact .contact-form {
+    width: 83vw;
+  }
+  iframe {
+    width: 100vw;
+    height: 200px;
+  }
+}

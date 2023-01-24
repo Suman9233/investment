@@ -1,0 +1,218 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0.2rem;
+  overflow: hidden;
+}
+.text-center {
+  text-align: center;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.py-1 {
+  padding: 1.5rem;
+}
+.py-2 {
+  padding: 2rem;
+}
+.py-3 {
+  padding: 3rem;
+}
+.bg-dark {
+  background: #333;
+  color: aliceblue;
+}
+.bg-light {
+  background: #fff;
+}
+/* utlity class */
+.texthighlight {
+  color: #84d2c5;
+}
+.bg-primary {
+  background: #8fea7d;
+  color: #fff;
+}
+.l-heading {
+  font-size: 40px;
+  margin-bottom: 4px;
+  color: #fff;
+}
+.m-heading {
+  font-size: 30px;
+  margin-bottom: 4px;
+  color: #333;
+}
+.s-heading {
+  font-size: 30px;
+  color: #fff;
+}
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.paragaraf {
+  padding-bottom: 10px;
+}
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #84d2c5;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 8px;
+}
+.send-btn {
+  margin: 10px;
+  padding-top: 2rem;
+  align-items: center;
+  text-align: center;
+  background: #333;
+  color: #84d2c5;
+  width: 50%;
+  border: none;
+  border-radius: 10px;
+}
+.send-btn:hover {
+  background: #567189;
+  color: #333;
+}
+.btn:hover {
+  background: #393e46;
+  color: #84d2c5;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: #567189;
+  color: azure;
+  z-index: 1;
+  padding: 1rem;
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+#navbar ul li a {
+  color: aliceblue;
+  padding: 0.75rem;
+}
+#navbar ul li a:hover {
+  background: #84d2c5;
+  border-radius: 3px;
+}
+/* showcase */
+#showcase {
+  background: #333 url("../images/building.jpg") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* overlays */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.items {
+  display: flex;
+  padding: 1rem;
+}
+.item {
+  text-align: center;
+  flex: 1;
+  padding: 1rem;
+}
+.item i {
+  color: #333;
+  background: #84d2c5;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+/*who*/
+
+#who {
+  display: flex;
+}
+#who div {
+  flex: 1;
+}
+#who .who-img {
+  background: url(../images/lobbey.jpg) no-repeat center center/cover;
+}
+.list li {
+  padding: 0.5rem 0;
+  list-style: none;
+  border-bottom: #444 dotted 1px;
+}
+.who-text {
+  padding: 0px 20px;
+}
+.who-text h3 {
+  padding-top: 5px;
+}
+/* client says */
+.items-photo {
+  display: flex;
+}
+.items-photo img {
+  display: block;
+  width: 60%;
+}
+.logos {
+  padding: 0%;
+}
+
+/* contact section */
+#contact {
+  margin: 0.5rem;
+  display: flex;
+}
+#contact .contact-form {
+  width: 50vw;
+}
+#contact .contact-form.form-group {
+  margin: 0.75rem;
+}
+#contact .contact-form label {
+  display: block;
+}
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+/* AIzaSyC5a1tF0raiBaPa6AlFxWECBWecfUKu_JQ */
+/* AIzaSyArtT8r3whcWPYjdDo8d_U43wwXr3OFFmI */
+#contact #map {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+iframe {
+  width: 50vw;
+  height: 500px;
+  background: cover;
+}
